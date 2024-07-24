@@ -1,3 +1,6 @@
+
+#This is the new changes
+
 # Use an official Ubuntu as a parent image
 FROM ubuntu:20.04
 
@@ -23,4 +26,5 @@ EXPOSE 4499
 
 # Run the script and then keep the container running
 CMD ["sh", "-c", "./wisecow.sh"]
+
 
